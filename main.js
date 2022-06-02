@@ -2,7 +2,7 @@ canvas=document.getElementById("myCanvas")
 ctx=canvas.getContext("2d")
 var mouseEvent="empty"
 var last_position_of_x,last_position_of_y
-var color="blue"
+var color="red";
 widthOfLine= 1
 canvas.addEventListener("mousedown",my_mousedown)
 function my_mousedown(e)
